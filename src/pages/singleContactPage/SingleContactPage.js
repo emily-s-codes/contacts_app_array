@@ -1,13 +1,20 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./SingleContactPage.css";
 import contacts from "../../data/contacts";
+import arrow from "../../assets/img/arrow_back.svg"
 
 const SingleContactPage = () => {
     const params = useParams();
 
-    console.log(contacts[0].name === params)
+    let nameUse = contacts.find((contact) => contact.id === params.name);
+    console.log(nameUse)
     return (
-        <div>test</div>
+        <div className="individualPage">
+            <img src={nameUse.pictureUrl} />
+            <h1>{nameUse.name}</h1>
+            <p>Popularity: {nameUse.popularity}</p>
+            <Link to={"/"}><img src={arrow} alt="back arrow" /></Link>
+        </div>
     )
 }
 

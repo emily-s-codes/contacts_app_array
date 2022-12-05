@@ -1,0 +1,36 @@
+.individualPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.individualPage img {
+    width: 300px;
+}
+
+.individualPage h1 {
+    font-size: 4rem;
+}
+
+.individualPage p {
+    font-size: 2rem;
+}
+
+.individualPage a {
+    margin-top: 20px;
+    font-size: 1.4rem;
+
+}
+
+.individualPage a img {
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: all 1s ease;
+
+}
+
+.individualPage a img:hover {
+    scale: 1.3;
+}
