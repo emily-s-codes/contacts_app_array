@@ -1,0 +1,25 @@
+.singleContactDiv {
+    display: flex;
+    width: 200px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.singleContactDiv img {
+    width: 100px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.namePop {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 20px;
+}
+
+.celebName,
+.celebPop span {
+    font-weight: bold;
+}
