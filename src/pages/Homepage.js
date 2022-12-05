@@ -1,7 +1,7 @@
 import "./Homepage.css";
 import contacts from "../data/contacts"
 import React, { useState } from "react";
-import SingleContact from "../components/singleContact/SingleContact";
+import SingleContact from "./singleContact/SingleContact";
 
 const Homepage = () => {
     const [sortContacts, setSortContacts] = useState(contacts);
@@ -23,6 +23,7 @@ const Homepage = () => {
     }
 
     return (<div className="homepageDiv">
+        <h1>Celebrity Contact List</h1>
         <button onClick={handleSortFirst}>Sort by First Name</button>
         <button onClick={handleSortPopularity}>Sort by Popularity</button>
         {sortContacts.map((contact, index) => {

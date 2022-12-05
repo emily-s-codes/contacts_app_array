@@ -4,3 +4,20 @@
   box-sizing: border-box;
   font-size: 10px;
 }
+
+@font-face {
+  font-family: "Overpass-Regular";
+  src: url("./assets/fonts/Overpass-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Overpass-Bold";
+  src: url("./assets/fonts/Overpass-Bold.ttf");
+}
+
+h1,
+h2,
+p,
+button {
+  font-family: "Overpass-Regular", sans-serif;
+}

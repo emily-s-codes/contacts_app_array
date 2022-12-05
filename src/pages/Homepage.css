@@ -1,0 +1,17 @@
+h1 {
+    font-size: 4rem;
+    font-family: "Overpass-Bold", sans-serif;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}

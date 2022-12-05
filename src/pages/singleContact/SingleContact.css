@@ -1,6 +1,6 @@
 .singleContactDiv {
     display: flex;
-    width: 200px;
+    width: 300px;
     margin: 10px;
     border: 1px solid white;
 }
@@ -19,13 +19,14 @@
 .namePop {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
     padding: 5px;
     gap: 20px;
 }
 
 .celebName,
 .celebPop span {
-    font-weight: bold;
+    font-family: "Overpass-Bold", sans-serif;
 }
 
 a {
