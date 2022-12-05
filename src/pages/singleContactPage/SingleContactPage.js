@@ -10,7 +10,7 @@ const SingleContactPage = () => {
     console.log(params.contact)
     return (
         <div className="individualPage">
-            <img src={nameUse.pictureUrl} />
+            <img src={nameUse.pictureUrl} alt={nameUse.name} />
             <h1>{nameUse.name}</h1>
             <p>Popularity: {nameUse.popularity}</p>
             <Link to={"/"}><img src={arrow} alt="back arrow" /></Link>
